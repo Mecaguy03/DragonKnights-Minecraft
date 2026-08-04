@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"simulated:directional_gearshift"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:brass_funnel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_connected:vertical_six_way_gearbox"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

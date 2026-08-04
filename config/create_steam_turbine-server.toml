@@ -1,0 +1,17 @@
+[balance]
+	#Linear steam generation in mb/t for each effective boiler level.
+	# Default: 40.0
+	# Range: 1.0 ~ 5000.0
+	baseSteamMbPerTickPerLevel = 40.0
+	#Virtual steam storage (mb) represented by each connected pipe block.
+	# Default: 120.0
+	# Range: 1.0 ~ 10000.0
+	virtualStorageMbPerPipeBlock = 120.0
+	#Multiplier from simulated torque to Create SU output.
+	# Default: 130.0
+	# Range: 1.0 ~ 100000.0
+	turbineSuMultiplier = 130.0
+	#RPM threshold where overspeed risk reaches 100%.
+	# Default: 320.0
+	# Range: 16.0 ~ 5000.0
+	overspeedRpm = 320.0

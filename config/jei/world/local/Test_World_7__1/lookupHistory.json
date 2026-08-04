@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"scguns:hammer_gl","components":{"minecraft:custom_data":{"AmmoCount":4}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"scguns:sulfur_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"scguns:peal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:large_diamond_leaded_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:adjustable_burner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"croptopia:barley_seed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomesoplenty:barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"brewery:dried_barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"brewery:beer_barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"scguns:exo_suit_blueprint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"scguns:exo_suit_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
