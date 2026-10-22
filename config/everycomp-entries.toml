@@ -50,6 +50,12 @@
 			white_sandstone = true
 			brimstone = true
 
+		[types.stone_type.abyssal_decor]
+			blood_coral = true
+			jade = true
+			starstone = true
+			effervescence = true
+
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true
@@ -90,6 +96,21 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
+
+		[types.wood_type.hexerei]
+			mahogany = true
+			willow = true
+			witch_hazel = true
+
+		[types.wood_type.primalmagick]
+			sunwood = true
+			moonwood = true
+			hallowood = true
+
+		[types.wood_type.abyssal_decor]
+			white_wood = true
+			blackwood = true
+			cinnamon = true
 
 		[types.leaves_type.galosphere]
 			opal = true
@@ -219,6 +240,18 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
+
+		[types.leaves_type.hexerei]
+			mahogany = true
+			willow = true
+			witch_hazel = true
+
+		[types.leaves_type.primalmagick]
+			hallowood = true
+
+		[types.leaves_type.abyssal_decor]
+			cinnamon = true
+			flowering_cinnamon = true
 
 		[types.cake.createaddition]
 			chocolate_cake = true

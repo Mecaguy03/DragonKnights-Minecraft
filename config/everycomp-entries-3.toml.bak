@@ -47,6 +47,9 @@
 			dreadrock = true
 			tremblecrust = true
 
+		[types.stone_type.scguns]
+			phosphorite = true
+
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true

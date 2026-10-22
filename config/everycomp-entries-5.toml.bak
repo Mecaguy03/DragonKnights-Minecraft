@@ -201,6 +201,10 @@
 			hellbark = true
 			empyreal = true
 
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
 #Disables specific entries
 [entries]
 

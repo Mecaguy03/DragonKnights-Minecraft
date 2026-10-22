@@ -44,6 +44,12 @@
 		[types.stone_type.scguns]
 			phosphorite = true
 
+		[types.stone_type.biomesoplenty]
+			black_sandstone = true
+			orange_sandstone = true
+			white_sandstone = true
+			brimstone = true
+
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true
@@ -69,6 +75,21 @@
 			smogstem = true
 			wigglewood = true
 			grongle = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
 
 		[types.leaves_type.galosphere]
 			opal = true
@@ -175,6 +196,29 @@
 			smogstem = true
 			wigglewood = true
 			grongle = true
+
+		[types.leaves_type.biomesoplenty]
+			null = true
+			origin = true
+			flowering_oak = true
+			cypress = true
+			snowblossom = true
+			rainbow_birch = true
+			fir = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
 
 		[types.cake.createaddition]
 			chocolate_cake = true
