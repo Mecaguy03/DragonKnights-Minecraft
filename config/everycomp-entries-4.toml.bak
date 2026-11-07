@@ -35,17 +35,20 @@
 			abyssmarine = true
 			guanostone = true
 
-		[types.stone_type.biomesoplenty]
-			black_sandstone = true
-			orange_sandstone = true
-			white_sandstone = true
-			brimstone = true
-
 		[types.stone_type.undergarden]
 			depthrock = true
 			shiverstone = true
 			dreadrock = true
 			tremblecrust = true
+
+		[types.stone_type.scguns]
+			phosphorite = true
+
+		[types.stone_type.biomesoplenty]
+			black_sandstone = true
+			orange_sandstone = true
+			white_sandstone = true
+			brimstone = true
 
 		[types.wood_type.quark]
 			azalea = true
@@ -65,6 +68,14 @@
 			pewen = true
 			thornwood = true
 
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
 		[types.wood_type.biomesoplenty]
 			fir = true
 			pine = true
@@ -79,14 +90,6 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
-
-		[types.wood_type.born_in_chaos_v1]
-			scorched = true
-
-		[types.wood_type.undergarden]
-			smogstem = true
-			wigglewood = true
-			grongle = true
 
 		[types.leaves_type.galosphere]
 			opal = true
@@ -189,6 +192,11 @@
 		[types.leaves_type.alexscaves]
 			ancient = true
 
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
 		[types.leaves_type.biomesoplenty]
 			null = true
 			origin = true
@@ -211,11 +219,6 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
-
-		[types.leaves_type.undergarden]
-			smogstem = true
-			wigglewood = true
-			grongle = true
 
 		[types.cake.createaddition]
 			chocolate_cake = true

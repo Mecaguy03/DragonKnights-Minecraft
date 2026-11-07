@@ -1,0 +1,17 @@
+#Hard cap on how long a single chunkloader may be active, in minutes.
+#Enforced on /cl add and /cl extend.
+# Default: 1440
+# Range: 1 ~ 1440
+maxDurationMinutes = 1440
+#Default duration in minutes when the user omits the argument.
+# Default: 60
+# Range: 1 ~ 1440
+defaultDurationMinutes = 60
+#Seconds before expiry to send an action-bar warning to the creator (0 disables).
+# Default: 30
+# Range: 0 ~ 3600
+warnBeforeExpirySeconds = 30
+#Required OP level to use /cl commands.
+# Default: 2
+# Range: 0 ~ 4
+permissionLevel = 2

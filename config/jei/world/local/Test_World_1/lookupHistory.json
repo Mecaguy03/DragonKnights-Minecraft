@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"steampowered:steel_steam_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"steampowered:bronze_steam_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"steampowered:cast_iron_steam_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"steampowered:steel_boiler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"steampowered:alternator"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

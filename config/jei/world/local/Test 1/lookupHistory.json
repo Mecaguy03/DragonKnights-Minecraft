@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"steampowered:cast_iron_cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"steampowered:cast_iron_flywheel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
