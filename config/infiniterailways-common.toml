@@ -3,7 +3,7 @@
 	#Place stations at villages. When off, or when no villages can be found, stations are spread on a seeded grid (Node Density).
 	useVillageNodes = true
 	#Always place a station at world spawn, in addition to the village (or grid) stations. When Railways Untold's startingTrain option is on, its starter train waits on the platform.
-	spawnStation = true
+	spawnStation = false
 	#Let every player use /railway nearest, which teleports to the nearest station. When off, only operators can.
 	nearestCommandForAll = false
 	#Chance for each grid spot to get a station. Only used when stations are spread on the grid (useVillageNodes off, or no villages found): every village gets a station, so routes always know where villages are and go around them. To thin village stations, use villageMinSpacing.
@@ -13,7 +13,7 @@
 	#Minimum distance between two village stations, in blocks. Of villages closer than this, only one gets a station. 0 = no limit.
 	# Default: 400
 	# Range: 0 ~ 10000
-	villageMinSpacing = 400
+	villageMinSpacing = 600
 	#Grid cell size for stations when villages are not used, in blocks. Smaller = more stations.
 	# Default: 3000
 	# Range: 100 ~ 20000
@@ -21,7 +21,7 @@
 	#Highest surface level (Y) a station can be placed at. Raise it for terrain packs with very tall worlds (e.g. JJThunder To The Max).
 	# Default: 150
 	# Range: 64 ~ 2031
-	maxNodeHeight = 150
+	maxNodeHeight = 115
 	#Plan long main lines that stop at the villages along their way. When off, neighbouring stations are linked directly (Graph Type).
 	useMainLines = true
 	#Spacing between main-line hubs, in blocks. Larger = fewer, longer lines. Keep it well below Scan Radius + Max Connection Distance.
@@ -72,11 +72,11 @@
 	#Cost per block of tunnel depth or bridge height. Higher = routes detour more to stay at ground level.
 	# Default: 1.5
 	# Range: 0.0 ~ 20.0
-	structurePenaltyPerBlock = 1.5
+	structurePenaltyPerBlock = 8.0
 	#Discount when a route alternates between short cuts and fills, so it follows steep slopes instead of long tunnels or viaducts. 0 = off.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	terrainHugDiscount = 0.5
+	terrainHugDiscount = 1.0
 	#Cost each time a route switches between climbing and descending. Higher = steadier grades.
 	# Default: 150.0
 	# Range: 0.0 ~ 10000.0
@@ -96,7 +96,7 @@
 	#Preferred track height above rivers and lakes, in blocks.
 	# Default: 6
 	# Range: 0 ~ 64
-	waterClearanceRiver = 6
+	waterClearanceRiver = 12
 	#Cost per block the track sits below the preferred height over water. Higher = bridges climb more to clear the water.
 	# Default: 2.0
 	# Range: 0.0 ~ 20.0
@@ -104,15 +104,15 @@
 	#Extra cost of track over water. Higher = routes prefer land detours to long crossings.
 	# Default: 0.5
 	# Range: 0.0 ~ 10.0
-	waterCrossFraction = 0.5
+	waterCrossFraction = 5.0
 	#Longest bridge over deep water, in cells. Longer crossings are avoided. 0 = unlimited.
 	# Default: 12
 	# Range: 0 ~ 128
-	bridgeMaxSegments = 12
+	bridgeMaxSegments = 10
 	#Bridges over deep water run straight, except within this many cells of a station. 0 = always straight.
 	# Default: 4
 	# Range: 0 ~ 16
-	waterTurnStartSegments = 4
+	waterTurnStartSegments = 3
 	#Let routes hold a steady grade instead of only following the terrain. Smoother climbs, slower search.
 	verticalCandidates = true
 	#Keep the first complete route found instead of searching for a cheaper one. Much faster, slightly less optimal routes.
@@ -142,13 +142,13 @@
 	passingStations = false
 	#Stations with buildings. Off: stations are just their platform tracks laid on a paved strip, 64 blocks long, with Create station blocks (one or two tracks, as with buildings).
 	#Building-less stations are the station definitions under railwaysuntold/stations/bare/ in a datapack. Applies to stations not chosen yet.
-	stationBuildings = true
+	stationBuildings = false
 
 #Track laying and the corridor around it.
 [Track]
 	#Track material, for the line and station platforms. andesite (Create), or with Steam 'n' Rails: oak, spruce, birch, jungle, acacia, dark_oak, mangrove, cherry, bamboo, stripped_bamboo, crimson, warped, blackstone, ender, tieless.
 	#Any standard-gauge track material works; give its full id (e.g. railways:dark_oak) when two mods share a name. Falls back to andesite when not found. Only applies to track placed from now on.
-	trackMaterial = "dark_oak"
+	trackMaterial = "spruce"
 	#Track gauge: STANDARD, NARROW or WIDE. NARROW and WIDE need Steam 'n' Rails, and trains on matching bogeys: the starter train gets them.
 	#Fixed per world when it is first loaded, so all of its track carries the same trains: changing it only affects new worlds. Worlds that already had track stay STANDARD.
 	#Allowed Values: STANDARD, NARROW, WIDE
@@ -223,7 +223,7 @@
 	#Extra height cleared above the track in cuttings, in blocks.
 	# Default: 2
 	# Range: 0 ~ 8
-	cutExtraHeight = 2
+	cutExtraHeight = 6
 	#Steepness of cutting sides, in blocks across per block up (1.0 = 45 degrees, 2.0 = gentler).
 	# Default: 1.0
 	# Range: 0.5 ~ 3.0
