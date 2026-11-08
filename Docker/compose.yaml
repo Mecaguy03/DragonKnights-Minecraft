@@ -29,7 +29,6 @@ services:
         StarrFluff
       CURSEFORGE_FILES: |
       SERVER_NAME: "DragonKnights"
-      CF_FORCE_REINSTALL_MODLOADER: "true"
     restart: "no"
     volumes:
       - "./data:/data"
