@@ -54,9 +54,9 @@
 		# Default: 12
 		# Range: 0 ~ 8192
 		bronzeFlywheelSteamConsumptionPerTick = 12
-		# Default: 32000
-		# Range: 0 ~ 1048576
-		bronzeFlywheelSteamStorage = 32000
+		# Default: 500
+		# Range: 0 ~ 500
+		bronzeFlywheelSteamStorage = 500
 		# Default: 0.7
 		# Range: 0.0 ~ 1.0
 		bronzeFlywheelSuckEfficiency = 0.7
@@ -71,9 +71,9 @@
 		# Default: 24
 		# Range: 0 ~ 8192
 		castIronFlywheelSteamConsumptionPerTick = 24
-		# Default: 64000
-		# Range: 0 ~ 1048576
-		castIronFlywheelSteamStorage = 64000
+		# Default: 500
+		# Range: 0 ~ 500
+		castIronFlywheelSteamStorage = 500
 		# Default: 0.7
 		# Range: 0.0 ~ 1.0
 		castIronFlywheelSuckEfficiency = 0.7
@@ -88,9 +88,9 @@
 		# Default: 48
 		# Range: 0 ~ 1048576
 		steelFlywheelSteamConsumptionPerTick = 48
-		# Default: 96000
-		# Range: 0 ~ 1048576
-		steelFlywheelSteamStorage = 96000
+		# Default: 500
+		# Range: 0 ~ 500
+		steelFlywheelSteamStorage = 500
 		# Default: 0.7
 		# Range: 0.0 ~ 1.0
 		steelFlywheelSuckEfficiency = 0.7
@@ -117,15 +117,3 @@
 	# Default: 0.75
 	# Range: 0.0 ~ 1.0
 	dynamoEfficiency = 0.75
-
-[cogwheel]
-	#For those who want to make the game more challenging, you can add stress impact to cogwheels!
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	bronzeCogwheelImpact = 0.0
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	castIronCogwheelImpact = 0.0
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	steelCogwheelImpact = 0.0
