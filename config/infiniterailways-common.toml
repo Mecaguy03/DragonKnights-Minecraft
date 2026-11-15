@@ -148,7 +148,7 @@
 [Track]
 	#Track material, for the line and station platforms. andesite (Create), or with Steam 'n' Rails: oak, spruce, birch, jungle, acacia, dark_oak, mangrove, cherry, bamboo, stripped_bamboo, crimson, warped, blackstone, ender, tieless.
 	#Any standard-gauge track material works; give its full id (e.g. railways:dark_oak) when two mods share a name. Falls back to andesite when not found. Only applies to track placed from now on.
-	trackMaterial = "dark_oak"
+	trackMaterial = "spruce"
 	#Track gauge: STANDARD, NARROW or WIDE. NARROW and WIDE need Steam 'n' Rails, and trains on matching bogeys: the starter train gets them.
 	#Fixed per world when it is first loaded, so all of its track carries the same trains: changing it only affects new worlds. Worlds that already had track stay STANDARD.
 	#Allowed Values: STANDARD, NARROW, WIDE
@@ -223,7 +223,7 @@
 	#Extra height cleared above the track in cuttings, in blocks.
 	# Default: 2
 	# Range: 0 ~ 8
-	cutExtraHeight = 6
+	cutExtraHeight = 8
 	#Steepness of cutting sides, in blocks across per block up (1.0 = 45 degrees, 2.0 = gentler).
 	# Default: 1.0
 	# Range: 0.5 ~ 3.0
