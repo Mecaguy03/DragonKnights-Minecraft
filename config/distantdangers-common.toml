@@ -3,7 +3,7 @@
 	#Distance in blocks required for 2x difficulty multiplier
 	# Default: 1000.0
 	# Range: 1.0 ~ 100000.0
-	distance_scale = 1000.0
+	distance_scale = 30000.0
 	#Maximum difficulty multiplier cap
 	# Default: 5.0
 	# Range: 1.0 ~ 100.0
@@ -29,7 +29,7 @@
 	#Distance in blocks required for 2x XP multiplier
 	# Default: 1000.0
 	# Range: 1.0 ~ 100000.0
-	xp_distance_scale = 1000.0
+	xp_distance_scale = 30000.0
 	#Maximum XP multiplier cap
 	# Default: 10.0
 	# Range: 1.0 ~ 100.0
@@ -37,16 +37,16 @@
 
 [spawn_restrictions]
 	#Enable entity spawn restrictions by distance
-	enable_restrictions = false
+	enable_restrictions = true
 	#List of entities with minimum spawn distance
 	#Format: modid:entity_name@distance
 	#Supports wildcards: modid:*entity*@distance
 	#Example: Restrict wither skeletons to 5000+ blocks from spawn
-	restricted_entities = []
+	restricted_entities = ['irons_spellbooks:necromancer@500']
 	#Restrict all entities from specific mods
 	#Format: modid@distance
 	#Example: somemod@5000 restricts all entities from 'somemod'
-	restricted_mods = []
+	restricted_mods = ['scguns@1000', 'born_in_chaos_v1@500']
 
 [structure_restrictions]
 	#Enable structure generation restrictions by distance
@@ -59,7 +59,7 @@
 	#Restrict all structures from specific mods
 	#Format: modid@distance
 	#Example: somemod@5000 restricts all structures from 'somemod'
-	restricted_structure_mods = []
+	restricted_structure_mods = ['scguns@1000', 'born_in_chaos_v1@1000']
 
 [entity_types]
 	#Apply scaling to hostile mobs
