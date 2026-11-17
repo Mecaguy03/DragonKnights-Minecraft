@@ -1,0 +1,38 @@
+{
+  "alexsmobs:seagull": {
+    "enabled": true,
+    "percent": false,
+    "value": 6.0,
+    "global": false
+  },
+  "alexsmobs:bison": {
+    "enabled": true,
+    "percent": false,
+    "value": 10.0,
+    "global": false
+  },
+  "alexsmobs:seal": {
+    "enabled": true,
+    "percent": false,
+    "value": 6.0,
+    "global": false
+  },
+  "alexsmobs:crow": {
+    "enabled": true,
+    "percent": false,
+    "value": 20.0,
+    "global": false
+  },
+  "minecraft:sheep": {
+    "enabled": true,
+    "percent": false,
+    "value": 20.0,
+    "global": false
+  },
+  "artifacts:mimic": {
+    "enabled": true,
+    "percent": false,
+    "value": 5.0,
+    "global": false
+  }
+}
