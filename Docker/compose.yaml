@@ -16,7 +16,7 @@ services:
       TYPE: "AUTO_CURSEFORGE"
       VERSION: "1.21.1"
       CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/dragonknights-2026"
-      MEMORY: "8192M"
+      MEMORY: "7500M"
       MAX_PLAYERS: "25"
       MOTD: "Rerr Rerr"
       USE_MEOWICE_FLAGS: "true"
