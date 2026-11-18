@@ -2,6 +2,7 @@
 
 services:
   mc:
+    mem_limit: "7g"
     image: itzg/minecraft-server:java21
     tty: true
     stdin_open: true
